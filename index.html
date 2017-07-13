@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Natalia Veselnitskaya Chatbot</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body class="demo-1">
+		<div class="container">
+			<div class="content">
+				<div class="chat-window">
+					<div class="chat-messages">
+						<ol class="chat-messages-list">
+							<li class="chat-message chat-message-friend">
+								<div class="chat-message-bubble">
+									Hello,
+								</div>
+							</li>
+							<li class="chat-message chat-message-friend">
+								<div class="chat-message-bubble">
+									My name is Natalia Veselnitskaya, and I might have some info about your father's opposition if you are interested
+								</div>
+							</li>
+							<li class="chat-message chat-message-friend">
+								<div class="chat-message-bubble">
+									I am on my way to the states and might be able to meetup
+								</div>
+							</li>
+							<li class="chat-message chat-message-friend">
+								<div class="chat-message-bubble">
+									So message me back
+								</div>
+							</li>
+							<li class="chat-message chat-message-friend">
+								<div class="chat-message-bubble">
+									;)
+								</div>
+							</li>
+						</ol>
+					</div>
+					<div class="chat-input-bar">
+						<div class="chat-info-container">
+
+						</div>
+						<div class="chat-effect-container">
+							<div class="chat-effect-bar"></div>
+						</div>
+						<div class="chat-input-wrapper">
+							<button class="chat-input-tool">
+								<i class="icon icon-camera"></i>
+							</button>
+							<div class="chat-input" contenteditable></div>
+							<button class="chat-send">
+								<i class="fa fa-paper-plane"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" />
+			    </filter>
+			  </defs>
+			</svg>
+		</div><!-- /container -->
+	</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
